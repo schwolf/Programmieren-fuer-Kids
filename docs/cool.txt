@@ -1,0 +1,51 @@
+
+
+// basis
+Monti.BreiteÄndern(3);
+			Monti.FarbeÄndern("grün");
+			Monti.Laufen(50);
+			Monti.Drehen(90);
+			Monti.Laufen(50);
+			Monti.Drehen(90);
+			Monti.Laufen(50);
+			Monti.Drehen(90);
+			Monti.Laufen(50);
+			Monti.Drehen(90);
+
+=> damit wir es cool machen können (zeigen!) müssen wir ein paar änderungen machen
+1. while-schleife,
+2. drehen(90) in 360 / 4 ändern
+2. variable für seiten einführen (beide 4 im code ersetzen)
+
+
+
+// einfach
+
+var zahl = 0;
+			var seiten = 7;
+			
+			while (zahl < seiten)
+			{
+				monti.BreiteÄndern(6);
+				monti.FarbeÄndern("zufällig");
+				monti.Laufen(100);
+				monti.Drehen(360.0 / seiten);
+				zahl = zahl + 1;
+			}
+
+
+// cool
+
+var zahl = 0;
+			var seiten = 30;
+			
+			while (zahl  < seiten)
+			{
+				monti.BreiteÄndern(zahl + 1);
+				monti.FarbeÄndern("zufällig");
+				monti.Laufen(zahl  * 3);
+				monti.Drehen(360.0 * 3 / seiten);
+				zahl = zahl + 1;
+			}
+
+
