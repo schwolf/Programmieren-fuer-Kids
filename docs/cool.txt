@@ -1,5 +1,3 @@
-
-
 // basis
 Monti.BreiteÄndern(3);
 			Monti.FarbeÄndern("grün");
@@ -16,7 +14,6 @@ Monti.BreiteÄndern(3);
 1. while-schleife,
 2. drehen(90) in 360 / 4 ändern
 2. variable für seiten einführen (beide 4 im code ersetzen)
-
 
 
 // einfach
@@ -47,5 +44,3 @@ var zahl = 0;
 				monti.Drehen(360.0 * 3 / seiten);
 				zahl = zahl + 1;
 			}
-
-
