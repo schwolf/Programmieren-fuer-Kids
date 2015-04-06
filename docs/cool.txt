@@ -1,14 +1,14 @@
 // basis
 Monti.BreiteÄndern(3);
-			Monti.FarbeÄndern("grün");
-			Monti.Laufen(50);
-			Monti.Drehen(90);
-			Monti.Laufen(50);
-			Monti.Drehen(90);
-			Monti.Laufen(50);
-			Monti.Drehen(90);
-			Monti.Laufen(50);
-			Monti.Drehen(90);
+Monti.FarbeÄndern("grün");
+Monti.Laufen(50);
+Monti.Drehen(90);
+Monti.Laufen(50);
+Monti.Drehen(90);
+Monti.Laufen(50);
+Monti.Drehen(90);
+Monti.Laufen(50);
+Monti.Drehen(90);
 
 => damit wir es cool machen können (zeigen!) müssen wir ein paar änderungen machen
 1. while-schleife,
