@@ -19,16 +19,16 @@ Monti.Drehen(90);
 // einfach
 
 var zahl = 0;
-			var seiten = 7;
+var seiten = 7;
 			
-			while (zahl < seiten)
-			{
-				monti.BreiteÄndern(6);
-				monti.FarbeÄndern("zufällig");
-				monti.Laufen(100);
-				monti.Drehen(360.0 / seiten);
-				zahl = zahl + 1;
-			}
+while (zahl < seiten)
+{
+	monti.BreiteÄndern(6);
+	monti.FarbeÄndern("zufällig");
+	monti.Laufen(100);
+	monti.Drehen(360.0 / seiten);
+	zahl = zahl + 1;
+}
 
 
 // cool

@@ -1,2 +1,2 @@
-# Programmieren-fuer-Kids
-Programmierkurs für Grundschüler
+﻿# Programmieren-fuer-Kids
+Programmierkurs für Grundschüler/innen
