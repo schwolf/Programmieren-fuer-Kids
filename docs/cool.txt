@@ -1,4 +1,4 @@
-// basis
+// basic
 Monti.BreiteÄndern(3);
 Monti.FarbeÄndern("grün");
 Monti.Laufen(50);
