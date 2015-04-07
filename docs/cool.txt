@@ -1,5 +1,5 @@
 // basic
-Monti.BreiteÄndern(4);
+Monti.BreiteÄndern(66);
 Monti.FarbeÄndern("grün");
 Monti.Laufen(50);
 Monti.Drehen(90);
