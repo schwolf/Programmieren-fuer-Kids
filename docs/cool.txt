@@ -1,5 +1,6 @@
 // basic
-Monti.BreiteÄndern(2);
+
+Monti.BreiteÄndern(3);
 Monti.FarbeÄndern("grün");
 Monti.Laufen(50);
 Monti.Drehen(90);
@@ -10,7 +11,7 @@ Monti.Drehen(90);
 Monti.Laufen(50);
 Monti.Drehen(90);
 
-=> damit wir es cool machen können (zeigen!) müssen wir ein paar änderungen machen
+=> damit es cool wird (zeigen!) müssen wir ein paar änderungen machen
 1. while-schleife,
 2. drehen(90) in 360 / 4 ändern
 2. variable für seiten einführen (beide 4 im code ersetzen)
