@@ -1,4 +1,5 @@
-﻿using LearnKidsProgramming._01.SimpleSquare;
+﻿#region ...
+using LearnKidsProgramming._01.SimpleSquare;
 using SmallBasicFun;
 
 namespace SimpleSquare
@@ -7,74 +8,49 @@ namespace SimpleSquare
 	{
 		public static void Main()
 		{
-			// wir brauchen eine neue schildkröte
-			Schildkröte Monti = new Schildkröte(); 
+			#endregion
+	
+
+
+
+
+
+
+
+
+
+
+
 			
-			Monti.GeschwindigkeitÄndern(1000);
-			
-//			var Zahl = 0;
-//			var Seiten = 100;
-//			
-//			while (Zahl < Seiten)
-//			{
-//				Monti.BreiteÄndern(3);
-//				Monti.FarbeÄndern("grün");
-//				Monti.Laufen(50);
-//				Monti.Drehen(360.0 / Seiten);
-//				Zahl = Zahl + 1;
-//			}
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			// einfach
-			var zahl = 0;
-			
-			AbfrageBox box = new AbfrageBox();
-			
-			var seiten = box.Anzeigen("Wie viele Seiten?");
-			
-			while (zahl < seiten)
-			{
-				zahl = zahl + 1;
-				Monti.BreiteÄndern(zahl * 2);
-				Monti.FarbeÄndern("zufällig");
-				Monti.Laufen(zahl * 3);
-				Monti.Drehen(3 * 360.0 / seiten);
-			}
-			
-			
-			
-			// cool
-//			var zahl = 0;
-//			AbfrageBox box = new AbfrageBox();
-//			
-//			var seiten = box.Anzeigen("Wie viele Seiten?");
-//			
-//			
-//			while (zahl  < seiten)
-//			{
-//				Monti.BreiteÄndern(zahl + 1);
-//				Monti.FarbeÄndern("zufällig");
-//				Monti.Laufen(zahl * 3);
-//				Monti.Drehen(360.0 * 3 / seiten);
-//				zahl = zahl + 1;
-//			}
-			
-			
-			
+			// #1 Erstelle eine neue Schildkröte und gib Ihr einen Namen
+
+            // #4 Ändere die Farbe der Schildkrötenspur auf blau
+
+            // #5 Setze die Breite der Schildkrötenspur auf 10 pixel
+
+            // #6 Wiederhole folgendes 4 Mal
+
+            // #2 Lass die Schildkröte 50 Pixel weit laufen
+
+            // #3 Drehe die Schildkröte um 90 Grad nach rechts
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+#region ...
+
 		}
-	}
+    }
 }
+
+#endregion
